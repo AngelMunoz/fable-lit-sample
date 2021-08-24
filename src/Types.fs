@@ -16,3 +16,18 @@ type Feed =
         |> Option.defaultValue "[]"
         |> JSON.parse
         :?> Feed []
+
+type RssItem =
+    { title: string option
+      link: string option
+      guid: string option
+      categories: string array option
+      description: string option
+      pubDate: string option
+      content: string option }
+
+type RssContent =
+    { title: string option
+      description: string option
+      link: string option
+      items: RssItem array option }
