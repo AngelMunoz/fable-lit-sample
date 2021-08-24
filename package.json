@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "dotnet fable src --watch --run snowpack dev",
-    "build": "dotnet fable snowpack build"
+    "build": "dotnet fable src && snowpack build"
   },
   "keywords": [],
   "author": "",

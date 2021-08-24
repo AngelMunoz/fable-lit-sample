@@ -4,8 +4,7 @@
 module.exports = {
   mount: {
     public: { url: '/', static: true },
-    src: { url: '/dist', static: true },
-    'node_modules/@shoelace-style/shoelace/dist/assets': { url: '/assets', static: true },
+    src: { url: '/dist', static: true }
   },
   plugins: [],
   routes: [],
