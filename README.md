@@ -26,7 +26,7 @@ things to look out for
 
 - Web Components
 
-  every "page" is a web component, and any other function can be converted into a web component with very very little effort, this can help your organization to share components between teams if you're building a brand the best part of all is that your team won't need to use F# to consume those components, so no need to convert to 100% from day zero
+  In this sample every "page" is a web component it doesn't need to, but it can be as well as any other function can be converted into a web component with very very little effort, this can help your organization to share components between teams if you're building a brand the best part of all is that your team won't need to use F# to consume those components, so no need to convert to 100% from day zero
 
 - Event Handling
 
