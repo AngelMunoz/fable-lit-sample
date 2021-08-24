@@ -1,18 +1,12 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@ionic/core': ^5.6.14
-  '@stencil/core': ^2.7.0
   haunted: 4.8.2
-  ionicons: ^5.5.3
   lit-html: ^1.4.1
   snowpack: ^3.8.6
 
 dependencies:
-  '@ionic/core': 5.6.14
-  '@stencil/core': 2.7.0
   haunted: 4.8.2
-  ionicons: 5.5.3
   lit-html: 1.4.1
 
 devDependencies:
@@ -40,14 +34,6 @@ packages:
       chalk: 2.4.2
       js-tokens: 4.0.0
     dev: true
-
-  /@ionic/core/5.6.14:
-    resolution: {integrity: sha512-0LrEofgfA91aqDlXgnOIfC3QrRxazSA4Zu6StQ1ksQqzkYsJLmceaTowl/b72Yt4eaNHUQIVvUvazpoDNp+zRQ==}
-    dependencies:
-      '@stencil/core': 2.7.0
-      ionicons: 5.5.3
-      tslib: 2.3.1
-    dev: false
 
   /@lit/reactive-element/1.0.0-rc.3:
     resolution: {integrity: sha512-Rs2px1keOQUNJUo5B+WExl5v244ZNCiN/iMVNO9evFdJjAdWCIupR/p14zRPkNHsciRBELLTcOZ379cI9O6PDg==}
@@ -249,12 +235,6 @@ packages:
     resolution: {integrity: sha512-Qm9hBEBu18wt1PO2flE7LPb30BHMQt1eQgbV76YntdNk73XZGpn3izvGTYxbGgzXKgbCjiia0uxTd3aTNQrY/g==}
     engines: {node: '>=10'}
     dev: true
-
-  /@stencil/core/2.7.0:
-    resolution: {integrity: sha512-5TyOQQzAkvKACRCvjOF4Uq2T527T8WJ9u+EEwtoBA88b7PFjrgI1wbEFAkYGJLghvKi/ED+arV+NiH3ZnbVKXg==}
-    engines: {node: '>=12.10.0', npm: '>=6.0.0'}
-    hasBin: true
-    dev: false
 
   /@szmarczak/http-timer/4.0.6:
     resolution: {integrity: sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==}
@@ -1318,12 +1298,6 @@ packages:
   /inherits/2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
     dev: true
-
-  /ionicons/5.5.3:
-    resolution: {integrity: sha512-L71djrMi8pAad66tpwdnO1vwcyluCFvehzxU1PpH1k/HpYBZhZ5IaYhqXipmqUvu5aEbd4cbRguYyI5Fd4bxTw==}
-    dependencies:
-      '@stencil/core': 2.7.0
-    dev: false
 
   /ip/1.1.5:
     resolution: {integrity: sha1-vd7XARQpCCjAoDnnLvJfWq7ENUo=}
@@ -2610,6 +2584,7 @@ packages:
 
   /tslib/2.3.1:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
+    dev: true
 
   /tunnel-agent/0.6.0:
     resolution: {integrity: sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=}
