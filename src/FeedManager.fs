@@ -5,7 +5,6 @@ open Browser.Types
 open Lit
 open Fable.Haunted
 open Types
-open Fable.Core
 
 let private feedTpl feed =
     html
@@ -52,8 +51,8 @@ let private feedManager () =
                 <ion-item>
                     <ion-label>Add Feed</ion-label>
                 </ion-item>
-                <ion-input .debounce={750} placeholder="Name" @ionChange={nameChanged}></ion-input>
-                <ion-input .debounce={750} type="url" placeholder="Url" @ionChange={urlChanged}></ion-input>
+                <ion-input .debounce="{750}" placeholder="Name" @ionChange={nameChanged}></ion-input>
+                <ion-input .debounce="{750}" type="url" placeholder="Url" @ionChange={urlChanged}></ion-input>
                 <ion-button @click={saveFeed}>Save</ion-button>
             </section>
             <ion-list>
@@ -61,7 +60,6 @@ let private feedManager () =
             </ion-list>
         </ion-content>
         """
-
 
 let register () =
     defineComponent "x-feed-manager" (Haunted.Component feedManager)

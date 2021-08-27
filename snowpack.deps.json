@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "haunted": "4.8.2",
+    "lit-html": "1.4.1"
+  },
+  "lock": {
+    "haunted#4.8.2": "haunted@v4.8.2-ZrPeH8YuLcWNIPQxstcw",
+    "lit-html#1.4.1": "lit-html@v1.4.1-oent33n0grd4QLhM138d"
+  }
+}

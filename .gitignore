@@ -454,5 +454,6 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 
 *.fs.js
-/dist
+dist/
 .firebase/
+.snowpack/

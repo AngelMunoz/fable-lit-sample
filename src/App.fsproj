@@ -17,7 +17,7 @@
   <ItemGroup>
     <PackageReference Include="Fable.Browser.WebStorage" Version="1.0.4" />
     <PackageReference Include="Feliz.Engine.Lit" Version="1.0.0-beta-002" />
-    <PackageReference Include="Fable.Haunted" Version="1.0.0-beta-004" />
+    <PackageReference Include="Fable.Haunted" Version="1.0.0-beta-005" />
   </ItemGroup>
 
 </Project>

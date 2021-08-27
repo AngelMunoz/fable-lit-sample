@@ -19,7 +19,8 @@ module.exports = {
   },
   packageOptions: {
     /* ... */
-    knownEntrypoints: ['@stencil/core/internal/client']
+    source: 'remote',
+    types: true
   },
   devOptions: {
     /* ... */

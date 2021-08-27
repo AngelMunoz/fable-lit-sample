@@ -1,5 +1,5 @@
-import { FSharpResult$2 } from './.fable/fable-library.3.2.11/Choice.js';
-import { ofNullable } from './.fable/fable-library.3.2.11/Option.js';
+import { FSharpResult$2 } from './.fable/fable-library.3.2.12/Choice.js';
+import { ofNullable } from './.fable/fable-library.3.2.12/Option.js';
 import { RssContent, RssItem } from './Types.fs.js';
 
 /**

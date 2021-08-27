@@ -1,8 +1,6 @@
 [<RequireQualifiedAccess>]
 module Pages.Home
 
-open Browser.WebStorage
-
 open Fable.Core
 
 open Lit
