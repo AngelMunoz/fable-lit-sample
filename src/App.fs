@@ -3,7 +3,7 @@ module App
 
 open Lit
 
-open Fable.Haunted
+open Haunted
 
 let private app () =
 

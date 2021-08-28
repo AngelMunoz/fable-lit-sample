@@ -6,7 +6,7 @@ open Fable.Core
 open Fable.Core.JsInterop
 
 open Lit
-open Fable.Haunted
+open Haunted
 
 open Types
 

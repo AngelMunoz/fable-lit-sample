@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "snowpack": "snowpack",
     "postinstall": "dotnet tool restore",
     "start": "dotnet fable src --watch --run snowpack dev",
     "build": "dotnet tool restore && dotnet fable src && snowpack build"

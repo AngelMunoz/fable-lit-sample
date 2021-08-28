@@ -3,7 +3,7 @@ module Pages.FeedManager
 
 open Browser.Types
 open Lit
-open Fable.Haunted
+open Haunted
 open Types
 
 let private feedTpl feed =

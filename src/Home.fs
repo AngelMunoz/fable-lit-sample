@@ -4,7 +4,7 @@ module Pages.Home
 open Fable.Core
 
 open Lit
-open Fable.Haunted
+open Haunted
 open Types
 open Browser.Types
 
